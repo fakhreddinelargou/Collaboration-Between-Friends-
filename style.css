@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btns{
+    background: none;
+    border: none;
+    font-family: "Parkinsans", serif;
+
+}
+body{
+    width: 100%;
+    font-family: "Parkinsans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.allContent{
+    position: relative;
+    background-image: url(/backgroudimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.head{
+ 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+.head .title img{
+width: 35px;
+margin-bottom: 5px;
+}
+.head .title{
+    color: white;
+text-transform: uppercase;
+letter-spacing: 3px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+width: 30%;
+max-width: 25%;
+}
+.links{
+    width: 40%;
+   
+}
+.links ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+justify-content: space-evenly;
+}
+.links ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.login{
+display: flex;
+
+justify-content: center;
+
+    width: 15%;
+}
+.login .btn-login{
+    color: white;
+display: flex;
+align-items: center;
+gap: 5px;
+font-weight: 400;
+
+font-family: "Parkinsans", serif;
+
+}
+
+.buttonD{
+    font-family: "Parkinsans", serif;
+font-size: 15px;
+color: white;
+letter-spacing: 2px;
+width: 10%;
+height: 12vh;
+background-color: rgb(251, 65, 65);
+}
+.infoall{
+    height: 40vh;
+ 
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.infoall h2{
+color: white;
+width: 100%;
+font-size: 40px;
+
+}
+.art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.art .infoL{
+color: white;
+    height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.art .infoL h3{
+    font-size: 30px;
+}
+.art .infoL p{
+    font-size: 12px;
+}
+.infoL:nth-child(1){
+    background-color: rgb(243, 67, 67);
+}
+.infoL:nth-child(2){
+    background-color: rgb(39, 158, 209);
+}
+.infoL:nth-child(3){
+    background-color: rgb(20, 86, 165);
+}
+.posi-icons{
+    
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 150px;
+    background-color: rgba(34, 34, 255, 0.868);
+}
+.posi-icons svg{
+    width: 20px;
+}
+
+
+/* section #1 */
+
+.poeple{
+    width: 100%;
+    height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+text-align: center;
+align-items: center;
+}
+.poeple h2{
+    font-size: 40px;
+}
+
+.poeple img{
+    width: 250px;
+    height: 150px;
+}
+.examples{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+.examples .guys{
+ background-color: rgb(255, 255, 255);
+ width: 250px;
+ text-align: start;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ box-shadow: 0px 0px 5px 2px rgba(152, 152, 152, 0.16);
+}
+.examples .guys p{
+  font-size: 15px;
+  font-weight: 500;
+    width: 90%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgba(153, 153, 153, 0.402);
+}
+.examples .guys .icon-p{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    height: 50px;
+ margin-bottom: 20px;
+    padding: 10px;
+}
+.examples .guys .icon-p svg{
+    width: 20px;
+}
+.examples .guys .icon-p .two-ico{
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnR{
+    background-color: rgb(243, 67, 67);
+padding: 10px;
+color: white;
+font-size: 12px;
+}
+
+/* article #1 */
+.minitext{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(20, 86, 165);
+
+color: white;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+.textI:nth-child(1){
+    font-weight: 500;
+    width: 50%;
+    font-size: 20px;
+    font-style:italic;
+    letter-spacing: 1px;
+}
+.textI:nth-child(2){
+    font-size: 10px;
+letter-spacing: 1px;
+}
+
+
+
+
+/* section #2 */
+
+.dates{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-d{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.dates .date1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px;
+    border-bottom:1px solid rgba(112, 112, 112, 0.123) ;
+}
+.dates .txts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+font-size: 12px;
+font-weight: 400;
+width: 50%;
+padding: 10px;
+
+height: 15vh;
+}
+.txtL{
+    padding-left: 15px;
+}
+
+.dates .date1 .tNum{
+    font-size: 40px;
+}
+.dates .date1 button{
+    background-color: rgb(243, 67, 67);
+padding: 10px;
+color: white;
+}
+.join{
+    display: flex;
+}
+.text-join{
+    text-align: center;
+    width: 30%;
+    height: 60vh;
+    background-color: rgb(20, 86, 165);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+ .title-join{
+    font-size: 40px;
+}
+.text-join p{
+    width: 60%;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text-join button{
+    background-color: rgb(243, 67, 67);
+color: white;
+padding: 10px;
+}
+.img-join{
+    width: 70%;
+    height: 60vh;
+    background-image: url(/imgs/heads.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contactme{
+ 
+    width: 100%;
+height: 70vh;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.art1{
+display: flex;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+padding-left: 40px;
+padding-top: 45px;
+}
+.art1 h3{
+    padding-bottom: 10px;
+}
+.email{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 10px;
+}
+.email input{
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom:solid 1px rgba(142, 142, 142, 0.429) ;
+}
+.email p{
+font-size: 10px;
+
+}
+.email button{
+    background-color: rgb(243, 67, 67);
+color: white;
+padding: 10px;
+margin-top: 20px;
+}
+
+.art2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.art2 h3{
+    padding-bottom: 10px;
+}
+.art2 a{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+font-size: 12px;
+padding-bottom: 15px;
+}
+
+.end{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    height: 6vh;
+    background-color: rgb(20, 86, 165);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width : 1200px) {
+    body{
+        display: none;
+    }
+}
